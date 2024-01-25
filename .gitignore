@@ -1,0 +1,4 @@
+libaes.a
+libaes.so
+*.o
+tests/basic
