@@ -29,7 +29,7 @@ int main() {
     char plaintext[] = {0x6b, 0xc1, 0xbe, 0xe2, 0x2e, 0x40, 0x9f, 0x96, 0xe9, 0x3d, 0x7e, 0x11, 0x73, 0x93, 0x17, 0x2a};
 
     printf("key: ");
-    printhex((char*)key, sizeof(key));
+    printf("%x%x%x%x\n", key[0], key[1], key[2], key[3]);
 
     printf("plaintext: ");
     printhex(plaintext, sizeof(plaintext));
