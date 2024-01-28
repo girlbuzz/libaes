@@ -9,8 +9,6 @@ static char tohex[] = {
 };
 
 void printhex(const char *data, size_t n) {
-    uint16_t *wdata = (uint16_t*)data;
-
     for (size_t i = 0; i < n; i++) {
         unsigned char c = data[i];
 
